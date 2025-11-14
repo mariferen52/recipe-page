@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-size=1.0">
+
+		<title>Recipie Page Exercise</title>
+
+		<style type="text/css">
+			@font-face{
+				font-family: "outfit-bold";
+				src: url("assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+			}
+
+			@font-face{
+				font-family: "outfit-regular";
+				src: url("assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+			}
+			
+			body{
+				background-color: antiquewhite;
+			}
+		
+			.main-div{
+				background-color: white;
+				border-radius: 20px;
+				max-width: 650px;
+				padding: 40px; 
+				margin: 100px auto;
+				height: auto;
+				font-family: outfit-regular;
+				color: grey;
+			}
+
+			.main-div img{
+				width: 100%;
+				border-radius: 15px;
+				margin-bottom: 10px;
+			}
+
+			.main-div h1{
+				font-family: outfit-bold;
+				font-size: 40px;
+				color: black;
+			}
+
+			.main-div p{
+				margin-top: 0px;
+			}
+
+			.main-div h2{
+				color: brown;
+				font-family: outfit-bold;
+				font-size: 25px;
+				margin-bottom: 0px;
+			}
+
+
+			.main-div ul li{
+				padding-left: 15px;
+			}
+
+			.sub-div{
+				padding: 10px 20px;
+				border-radius: 10px;
+				background-color: #fff7fc;
+				font-family: outfit-regular;
+			}
+
+			.sub-div h1{
+				color: purple;
+				font-family: outfit-bold;
+				font-size: 20px;
+
+			}
+
+			span{
+				font-family: outfit-bold;
+				color: black;
+			}
+
+			.sub-div ul{
+				padding: 0px;
+				padding-left: 20px;
+			}
+
+			.sub-div ul li{
+				padding: 0px;
+				padding-left: 20px;
+				margin-bottom: 5px;
+				color: grey;
+			}
+
+			.line{
+				display: block;
+				width: 100%;
+				height: 1px;
+				background-color: grey;
+				margin-bottom: 10px;
+			}
+				
+			.main-div li{
+				margin-bottom: 10px;
+			}
+
+			.main-div table td{
+				font-family: outfit-bold;
+				margin-bottom: 10px;
+				padding-left: 30px;
+				border-style: solid;
+				border-width: 0px 0px 1px 0px;
+				border-color: grey;
+				padding-bottom: 5px;
+			}
+			table{
+				width: 100%;
+				border-collapse: collapse;
+			}
+
+			.s{
+				color: brown;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div name="main-div" class="main-div">
+			<img src="assets/images/image-omelette.jpeg" alt="omelette" />
+			<h1>Simple Omelette Recipe </h1>
+			<p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+			<div name="sub-div" class="sub-div">
+				<h1>Preparation time</h1>
+				<ul>
+					<li><span>Total</span>: Approximately 10 minutes</li>
+					<li><span>Preparation</span>: 5 minutes</li>
+					<li><span>Cooking</span>: 5 minutes</li>
+				</ul>
+			</div>
+			<h2>Ingredients</h2>
+			<ul>
+				<li>2-3 large eggs</li>
+				<li>Salt, to taste</li>
+				<li>Pepper, to taste</li>
+				<li>1 tablespoon of butter or oil</li>
+				<li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+			</ul>
+			<span class="line"></span>
+
+			<h2>Instructions</h2>
+			<ol>
+				<li><span>Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+				<li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+</li>
+				<li><span>Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+				<li><span>Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.
+</li>
+				<li><span>Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.
+</li>
+				<li><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.
+</li>
+
+			</ol>
+			<span class="line"></span>
+			
+			<h2>Nutrition</h2>
+			<p style="margin-top: 10px;">The table below shows nutritional values per serving without the additional fillings.<p>
+
+			<table>
+				<tr>
+					<th><span>Nutrition</span></th>
+					<th><span>Value</span></th>
+				</tr>
+
+				<tr>
+					<td>Calories</td>
+					<td class="s">277kcal</td>
+				</tr>
+
+				<tr>
+					<td>Carbs</td>
+					<td class="s">0g</td>
+				</tr>
+
+				<tr>
+					<td>Protein</td>
+					<td class="s">20g</td>
+				</tr>
+
+				<tr>
+					<td style="border-style: none;">Fat</td>
+					<td style="border-style: none;" class="s">22g</td>
+				</tr>
+
+			</table>
+
+		</div>
+	</body>
+</html>
